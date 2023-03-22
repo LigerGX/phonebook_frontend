@@ -1,0 +1,39 @@
+#root {
+  font-size: 16px;
+  padding: 32px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 24px 0px;
+}
+
+p {
+  margin-top: 4px;
+}
+
+.notification {
+  display: inline-block;
+  border: 3px solid rgb(20, 167, 20);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 32px;
+  width: auto;
+  background-color: rgb(221, 221, 221);
+  color: rgb(20, 167, 20);
+  font-size: 1.5rem;
+}
+
+.notification.error {
+  border: 3px solid rgb(207, 26, 26);
+  color: rgb(207, 26, 26);
+}
+
+.persons {
+  margin: 16px 0px;
+}
