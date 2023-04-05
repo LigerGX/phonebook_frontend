@@ -50,13 +50,10 @@ const AddPerson = ({ persons, setPersons, displayNotification }) => {
           setNewNumber('')
         })
         .catch(error => {
-          console.error(error)
+          console.log(error.response.data.error)
+          displayNotification(error.response.data.error, true)
         })
     }
-  }
-
-  const updateNumber = (person) => {
-
   }
 
   return (
